@@ -17,9 +17,7 @@ double lagr_pol_appr(double (*f)(double), double (*g)(int, int, double), int n ,
     double pol = 0;
 
     for(int i = 0; i < n; i++){
-
         pol +=f( 1 + ((double) i) / ((double) n) ) * g(n, i, x) / g(n, i, ( 1 + ((double) i) / ((double) n) ) ); 
-
     }
 
     return pol;
