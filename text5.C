@@ -27,7 +27,6 @@ double lagr_pol_appr(double (*f)(double), double (*g)(int, int, double), int n ,
 } 
 
 int main(){
-
     printf("a = %f\n", lagr_pol_appr(log, lagr_pol_coeff, 10, 2) - log(2));
     return 0;    
 
