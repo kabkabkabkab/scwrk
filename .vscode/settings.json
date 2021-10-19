@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "text5.C": "cpp"
+        "text5.C": "cpp",
+        "text4m.C": "cpp",
+        "text5m.C": "cpp"
     }
 }
