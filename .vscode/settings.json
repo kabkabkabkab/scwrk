@@ -2,6 +2,8 @@
     "files.associations": {
         "text5.C": "cpp",
         "text4m.C": "cpp",
-        "text5m.C": "cpp"
+        "text5m.C": "cpp",
+        "text5old.C": "cpp",
+        "text6m.C": "cpp"
     }
 }
