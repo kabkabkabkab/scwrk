@@ -6,7 +6,11 @@ double standart_grid(int i, int n, double a, double b){
     return (b - a)*x + a;
 }
 
-double euler_solver(int i, int n, double a, double b, double (*grid)(int, int, double, double)){
+double chebyshov_grid( int i, int n, double a, double b ){
+    return ( b + a ) / 2.0 + cos( M_PI * (2 * i + 1 ) / ( 2.0 * ( n + 1 ) ) ) * ( b - a ) / 2.0 ;
+}
+
+double euler_solver( int i, int n, double a, double b, double (*grid)(int, int, double, double) ){
     // x' = -x, x(0) = 1
     if(i == 0){
 
@@ -84,7 +88,6 @@ int main(){
     int N = 200;
     double a = 0.0;
     double b = 3.0;
-
 
     FILE *myfile157471;
     const char filenam1[10] = {"out6.txt"};
