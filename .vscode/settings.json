@@ -5,6 +5,8 @@
         "text5m.C": "cpp",
         "text5old.C": "cpp",
         "text6m.C": "cpp",
-        "text7m.C": "cpp"
+        "text7m.C": "cpp",
+        "text7.C": "cpp",
+        "text6.C": "cpp"
     }
 }
